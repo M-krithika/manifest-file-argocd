@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/M-krithika/manifest-file-argocd.git
+    repoURL: https://github.com/anveshmuppeda/argo-cd-demo
     targetRevision: HEAD
     path: development
 
@@ -20,5 +20,4 @@ spec:
     - CreateNamespace=true
 
     automated:
-      selfHeal: true
       prune: true
